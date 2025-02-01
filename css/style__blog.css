@@ -265,3 +265,45 @@ header{
 }
 
 
+.section__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 100px;
+    gap: 30px;
+    position: relative;
+}
+.div__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    gap: 20px;
+/*     top: 200px;
+ */}
+.div__footer h2{
+    font-family: "Montserrat-Bold";
+}
+.div__footer p{
+    width: 600px;
+    font-family: "Montserrat-Regular";
+    text-align: center;
+    font-weight: lighter;
+}
+
+.div__social{
+    display: flex;
+    gap: 30px;
+}
+.div__social a{
+        
+}
+.div__social a img{
+    width: 40px;
+}
+
+.div__copy{
+    
+}
