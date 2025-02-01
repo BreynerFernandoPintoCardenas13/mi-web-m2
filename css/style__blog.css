@@ -193,15 +193,30 @@ header{
  }
 
 .section__information{
-    background-color: red;
-    padding: 20px;
+/*     background-color: red;
+ */    padding: 20px;
    position: relative;
    top: 100px;
    
 }
+
+.section__information h2{
+    display: flex;
+    position: relative;
+    left: 45px;
+    font-family: "Montserrat-Medium";
+    font-size: 28px;
+    color: #ffff;
+}
  .article__card {
-    background-color: blue;
-    padding: 20px;
+/*     background-color: blue;
+ */    padding: 20px;
+    position: relative;
+    display: flex;
+    left: 20px;
+    width: 1500px;
+    flex-wrap: wrap;
+    gap:60px;
 }
 .div__card {
     border-radius: 30px;
@@ -210,12 +225,15 @@ header{
     display: flex;
     width: 400px;
     color: #ffff;
-    justify-content: center;
+    position: relative;
+/*     right: 10px;
+ */    justify-content: center;
     flex-direction: column;
     /* align-items: center; */
     
 }
 .div__card img{
+    width: 400px;
 }
 .div__card h3{
     text-align: center;
@@ -227,7 +245,7 @@ header{
  */}
 
 .div__card p{
-    text-align: center;
+    text-align: left;
     font-family: "Montserrat-Regular";
 }
 .div__card a{
@@ -241,6 +259,9 @@ header{
     color: #071917;
     display: flex;
     justify-content: center;
+    position: relative;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
+    left: 130px;
 }
 
 
