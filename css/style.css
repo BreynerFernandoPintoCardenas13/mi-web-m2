@@ -208,7 +208,7 @@ body{
     gap: 20px;
     flex-direction: row;
     justify-content: space-between;
-    overflow-x: scroll;
+    overflow-x: scroll; 
     top: 20px;    width: 1500px;
     position: relative;
     article{
@@ -266,6 +266,7 @@ body{
             }
     }
 }
+
 /********* FOOTER ********/
 
 .section__footer{
@@ -301,8 +302,18 @@ body{
         justify-content: space-around;
     }
 }
+
+/******** SECOND PAGE ***********/
+
+
+
+
+
+
 @media (max-width: 576px){
-    .header{
+    header{
+        display: flex;
+        align-items: ce;
         /* background-color: red; */
     }
     .section__home{
