@@ -298,6 +298,8 @@ header{
     gap: 30px;
 }
 .div__social a{
+    color: #ffff;
+
         
 }
 .div__social a img{
@@ -305,5 +307,13 @@ header{
 }
 
 .div__copy{
+    color: #ffff;
+    display: flex;
+    position: relative;
+    top: 200px;
+    padding: 0px 0px 10px 0px;
+}
+
+.div__copy span{
     
 }
